@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="MusicPlayer.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<!-- body block -->
+<body>
+
+
+	<!-- header block -->
+		<header>
+			<div class="nav-bar">
+				<div class="nav-icon">
+					<img src="image/Capture1.PNG">
+				</div>
+
+				<div class="favourites">
+					<p>Favourites </p>
+				</div>
+
+				<div class="search-container">
+					<i class="fas fa-search"></i>
+					<input type="text" name="search-box" id="search-box"placeholder="Search...">
+
+					<i class="fas fa-microphone"></i>
+				</div>
+
+				<div class="nav-bell-icon">
+					<i class="fas fa-bell"></i>
+					<i class="fas fa-circle" id="dot"></i>
+				</div>
+
+				<div class="nav-profile-icon">
+					<img src="image/DSC_0028.jpg">
+				</div>
+				
+
+			</div>
+
+		</header>
+<!-- end of header block -->
+
+<!-- main block -->
+		<main class="main">
+			<div class="music-body-container">
+
+				<div class="new-release">
+
+					<div class="new-release-1">
+						<img src="image/electronic-music-album-cover-template-design-12b51a1ad56ef5851bc8068dd8c79aaf_screen.jpg">
+					</div>
+					
+
+					<div class="new-release-2">
+						<img src="image/PHOTO-BAND-NO-LOGO.jpeg">
+					</div>
+
+					<div class="new-release-3">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover (1).jpg">
+					</div>
+
+				</div>
+
+				<div class="latest-release">
+					<h4>Latest Release </h4>
+						
+					<div class="onism onism-1">
+						
+						<i class="fa fa-pause">
+							
+							
+					    	
+						</i>
+						<option>Queue</option>
+						<option>Playlist</option>
+						<option>Favourite song</option>
+						
+
+						<div class="onism-icon">
+
+							<img src="image/61N4A+CPFBL._SL1063_.jpg">
+
+							
+				
+						</div>
+
+						<div class="onism-caption">
+								<h3>Onism </h3>
+								<p>Aug 22,2000</p>
+						</div>
+
+						<div class="duration">
+							<i class="fas fa-ellipsis-h"></i>
+							<p>4:44</p>
+						</div>
+					</div>
+
+					<div class="onism-2 onism">
+						<i class="fa fa-pause"></i>
+
+						<div class="onism-icon">
+
+							<img src="image/61N4A+CPFBL._SL1063_.jpg">
+							
+				
+						</div>
+
+						<div class="onism-caption">
+								<h3>Onism </h3>
+								<p>Aug 22,2000</p>
+						</div>
+
+						<div class="duration">
+							<i class="fas fa-ellipsis-h"></i>
+							<p>4:44</p>
+						</div>
+					</div>
+
+					<div class="onism-3 onism">
+						<div class="onism-icon">
+							<i class="fa fa-pause"></i>
+							<img src="image/61N4A+CPFBL._SL1063_.jpg">
+							
+				
+						</div>
+
+						<div class="onism-caption">
+								<h3>Onism </h3>
+								<p>Aug 22,2000</p>
+						</div>
+
+						<div class="duration">
+							<i class="fas fa-ellipsis-h"></i>
+							<p>4:44</p>
+						</div>
+					</div>
+					<div class="onism-4 onism">
+						<i class="fa fa-pause"></i>
+						<div class="onism-icon">
+
+							<img src="image/61N4A+CPFBL._SL1063_.jpg">
+							
+				
+						</div>
+
+						<div class="onism-caption">
+								<h3>Onism </h3>
+								<p>Aug 22,2000</p>
+						</div>
+
+						<div class="duration">
+							<i class="fas fa-ellipsis-h"></i>
+							<p>4:44</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="popular-artist">
+
+					<h4>Popular Artist</h4>
+
+					<div class="popular-artist-sub-container-1">
+
+						<div class="artist-album">
+							<i class="fa fa-play play-btn"  aria-hidden="true"></i>
+							<a href="player.html"> <img src="image/Ed_Sheeran-6886_(cropped).jpg"> </a>
+							<figcaption1>Ed Sheeran</figcaption1>
+						
+						</div>
+
+						<div class="artist-album">
+							<i class="fa fa-play play-btn"  aria-hidden="true"></i>
+							<a href="player.html"> 
+							<img src="image/Coldplay-0.jpg"> </a>
+							<figcaption1>&nbsp;ColdPlay</figcaption1>
+						</div>
+						<div class="artist-album">
+							<i class="fa fa-play play-btn"  aria-hidden="true"></i>
+							<a href="player.html"> 
+							<img src="image/2018_10_29_zayn_malik_portrait.jpg"> </a>
+							<figcaption1>&nbsp;&nbsp;&nbsp;&nbsp;Zayn</figcaption1>
+						</div>
+						<div class="artist-album">
+							<i class="fa fa-play play-btn"  aria-hidden="true"></i>
+							<a href="player.html"> 
+							<img src="image/im-119499.jfif"> </a>
+							<figcaption1>Charlie Puth</figcaption1>
+						</div>
+						<div class="artist-album">
+							<i class="fa fa-play play-btn"  aria-hidden="true"></i>
+							<a href="player.html"> 
+							<img src="image/117e6e4a-1ba1-42fd-b438-0532c4121d00-large16x9_201704461493.jpg"> </a>
+							<figcaption1>Imagin Dragon</figcaption1>
+						</div>
+						<div class="artist-album">
+							<i class="fa fa-play play-btn"  aria-hidden="true"></i>
+							<a href="player.html"> 
+							<img src="image/f595bef2dad7414cbfa3b682d14940c0_md.jpg"> </a>
+							<figcaption1>Bruno Mars</figcaption1>
+							
+						</div>
+
+					</div>
+					
+
+
+
+						<div class="popular-artist-sub-container-2">
+							<div class="sub-container-div sub-container-div-square">
+								<div id="square-div-image">
+									<img src="image/2000px-Antu_soundcloud.svg_.png">
+									<div class="centered">Stations</div>
+									
+								</div>
+								
+							</div>
+
+							<div class="sub-container-div sub-container-div-circle">
+								<img src="image/034087025dd243237b697d77e6b6c09b--album-cover-design-love-cover.jpg">
+								<div class="centered">Retro</div>
+							</div>
+
+							<div class="sub-container-div sub-container-div-circle">
+								<img src="image/vinyl-album-cover-sleeve-blank-vinyl-album-cover-sleeve-vintage-concept-114630394.jpg">
+								<div class="centered">Chill</div>
+							</div>
+
+							<div class="sub-container-div sub-container-div-circle">
+								<img src="image/photo-1559713043-6b4d0fb8bd98 (1).jfif">
+								<div class="centered">Workout</div>
+							</div>
+
+							<div class="sub-container-div sub-container-div-circle">
+								<img src="image/unnamed.png">
+								<div class="centered">Rock</div>
+							</div>
+							<div class="sub-container-div sub-container-div-circle">
+								<img src="image/hqdefault.jpg">
+								<div class="centered">Pop</div>
+							</div>
+
+							<div class="sub-container-div sub-container-div-circle">
+								<img src="image/1200px-RF_3006_Lorde@Arena_Krists_Luhaers-5_(35769377251)_(cropped).jpg">
+								<div class="centered">Retro</div>
+							</div>
+						</div>
+				</div>
+
+
+				<div class="party-section">
+					<div class="party-section-div">
+						<img src="image/photo-1540039155733-5bb30b53aa14.jfif">
+						<div class="centered">Party</div>
+					</div>
+
+					<div class="party-section-div">
+						<img src="image/cover_image-1599734438.png">
+						<div class="centered">Electronic</div>
+						
+					</div>
+
+					<div class="party-section-div">
+						<img src="image/shutterstock_305567459-694x533.jpg">
+
+						<div class="centered">Road Trip</div>
+					</div>
+
+				</div>
+
+				<div class="latest-section">
+
+					<h4>Latest English</h4>
+
+					<div class="latest-sub-container">
+
+							<div class="latest-icon">
+								<img src="image/76f54e170a9927fcc6da6d3750c67a75.jpg">
+								<figcaption>Onism <br> Aug 22,2000</figcaption>
+						
+							</div>
+							
+							<div class="latest-icon">
+								<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+
+								<figcaption>Onism <br> Aug 22,2000</figcaption>
+							</div>
+
+							<div class="latest-icon">
+
+								<img src="image/electronic-music-album-cover-template-design-12b51a1ad56ef5851bc8068dd8c79aaf_screen.jpg">
+
+								<figcaption>Onism <br> Aug 22,2000</figcaption>
+							</div>
+							<div class="latest-icon">
+								<img src="image/electro-music-album_53876-67225 (1).jpg">
+								<figcaption>Onism <br> Aug 22,2000</figcaption>
+							</div>
+							<div class="latest-icon">
+								<img src="image/Cool Alternative Music Album Cover Maker with Dim Colors copy.jpg">
+
+								<figcaption>Onism <br> Aug 22,2000</figcaption>
+							</div>
+							<div class="latest-icon">
+								<img src="image/dynamic-radial-color-sound-equalizer-design-music-album-cover-template-abstract-circular-digital-data-form-vector-160916775.jpg">
+
+								<figcaption>Onism <br> Aug 22,2000</figcaption>
+								
+							</div>
+
+
+					</div>
+						
+
+				</div>
+
+
+
+				<div class="latest-section latest-section-hindi">
+
+					<h4>Latest Hindi</h4>
+
+					<div class="latest-sub-container">
+
+							<div class="latest-icon">
+								<img src="image/pachtaoge-vicky-nora-main.jpg">
+							</div>
+							
+							<div class="latest-icon">
+								<img src="image/51sBMa53hqL.jpg">
+							</div>
+							<div class="latest-icon">
+								<img src="image/61TKxTYc8PL.jpg">
+							</div>
+							<div class="latest-icon">
+									<img src="image/artworks-000217893176-igg61r-t500x500.jpg">
+							</div>
+							<div class="latest-icon">
+									<img src="image/99000-Holiday-A-Soldier-Is-Never-Off-Duty-2014.jpg">
+							</div>
+							<div class="latest-icon">
+									<img src="image/	721a4d654eb68df40dd0e5933d91d3e5.jpg">
+							</div>
+
+					</div>
+						
+
+				</div>
+					
+
+			</div>  <!-- end of music body container    -->
+
+
+
+		</main>
+	<!-- end of main block -->
+
+	<!-- aside section -->
+		<aside>
+			
+				<div class="queue">
+				<h1>Queue</h1>
+				<form style="float:right;">
+				<select name="queue">
+					<option>Queue</option>
+					<option>Playlist</option>
+					<option>Favourite song</option>
+				</select>
+			</form>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>01.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+					<i class="far fa-heart"></i></div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>02.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+					<i class="far fa-heart"></i></div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>03.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+					<i class="far fa-heart"></i></div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>04.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+					<i class="far fa-heart"></i> </div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>05.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+					<i class="far fa-heart"></i>
+				</div>
+
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>06.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+				</div>
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>06.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+				</div>
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>07.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+					<h3 style="color:#b78282;">Mirage</h3>
+					<h4 style="color: #463636;">john lennon</h4>
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>08.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>09.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>10.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>11.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>12.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>13.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+			<div class="queue-songs">
+				<div class="song-info">
+					<h3>14.</h3>
+					<div class="song-info-img">
+						<img src="image/Something-to-remember-when-designing-an-ablum-cover.jpg">
+					</div>
+					<div class="queue-song-name">
+						<h3 style="color:#b78282;">Mirage</h3>
+						<h4 style="color: #463636;">john lennon</h4>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+
+		</aside>
+	<!-- end of aside setion -->
+
+<!-- footer section -->
+
+
+		<footer>
+		<div class="current-song">
+			<img  id="album-art" src="image/pachtaoge-vicky-nora-main.jpg">
+			<div class="song-details">
+				<h5>Bada Pachtaoge</h5>
+				
+			</div>
+			<i class="fa fa-heart"></i>
+			<i class="fa fa-ban"></i>
+			<div class="control">
+				<i class="fa fa-random"></i>
+				<i class="fa fa-backward"></i>
+				<i class="fa fa-pause"></i>
+				<i class="fa fa-step-forward"></i>
+				<i class="far fa-repeat" style="font-size: 48px;"></i>
+			</div>
+			<div class="play-logo">
+				<input type="range" id="play-song" required min="0" max="100">
+			</div>
+			<div class="sound-setting">
+				<i class="fa fa-th-list"></i>
+				<i class="fa fa-volume-up"></i>
+				<input type="range" id="play-song" required min="0" max="100">
+				<i class="fa fa-expand"></i>
+			</div>
+		</div>
+	</footer>
+<!-- end of footer section -->
+		
+</body>
+
+<!-- end of body block -->
+
+</html>

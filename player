@@ -1,0 +1,333 @@
+# Music-player-list
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="player.css">
+	</head>
+	<body>
+<!-- body block -->
+
+	<!-- header section -->
+		<header>
+			<div class="nav-bar">
+				<div class="nav-icon">
+					<img src="D:\Web Development\FrontEnd\music_image\Capture1.PNG">
+				</div>
+
+				<div class="favourites">
+					<p>Favourites </p>
+				</div>
+
+				<div class="search-container">
+					<i class="fas fa-search"></i>
+					<input type="text" name="search-box" id="search-box"placeholder="Search...">
+
+					<i class="fas fa-microphone"></i>
+				</div>
+
+				<div class="nav-bell-icon">
+					<i class="fas fa-bell"></i>
+					<i class="fas fa-circle" id="dot"></i>
+				</div>
+
+				<div class="nav-profile-icon">
+					<img src="D:\Web Development\FrontEnd\music_image\DSC_0028.jpg">
+				</div>
+				
+
+			</div>
+		
+		</header>
+	<!-- end of header section -->
+
+<!-- main block -->
+		<main>
+			<content>
+				<section class="cold-play">
+					<div class="cold-play-info">
+						<img src="image/player.jpg">
+						<h2>Cold Play</h2>
+						<h4>British Brand</h4>
+						<h5>851 followers</h5>
+						<button type="submit">Play All</button>
+					</div>
+				</section>
+				<section>
+					<div class="cold-play-album">
+						<div class="song-info">
+							<h3>05.</h3>
+							<div class="song-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="queue-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="">
+						<div class="song-info">
+							<h3>05.</h3>
+							<div class="song-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="queue-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="">
+						<div class="song-info">
+							<h3>05.</h3>
+							<div class="song-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="queue-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="">
+						<div class="song-info">
+							<h3>05.</h3>
+							<div class="song-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="queue-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="">
+						<div class="song-info">
+							<h3>05.</h3>
+							<div class="song-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="queue-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</section>
+			</content>
+
+
+	<!--aside section  -->
+			<aside>
+				<section class="section-1">
+					<div class="Similar-artist">
+						<p>Similar Artists</p>
+						<h3 style="float: right;color:white;">view All</h3>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</section>
+				<section class="recently-played">
+						<div class="Similar-artist">
+						<p>Recently Played</p>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class="aside-playlist1">
+						<div class="playlist1-info">
+							<h3>05.</h3>
+							<div class="playlist1-info-img">
+								<img src="image/item3.jpg">
+							</div>
+						<div class="playlist1-song-name">
+							<h3 style="color:#b78282;">Mirage</h3>
+							<h4 style="color: #463636;">john lennon</h4>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</section>
+			</aside>
+		</main>
+<!-- end of main block -->
+
+<!-- footer section -->
+		
+		<footer>
+			<div class="current-song">
+			<img  id="album-art" src="D:\Web Development\FrontEnd\music_image\pachtaoge-vicky-nora-main.jpg">
+			<div class="song-details">
+				<h5>Bada Pachtaoge</h5>
+				
+			</div>
+			<i class="fa fa-heart"></i>
+			<i class="fa fa-ban"></i>
+			<div class="control">
+				<i class="fa fa-random"></i>
+				<i class="fa fa-backward"></i>
+				<i class="fa fa-pause"></i>
+				<i class="fa fa-step-forward"></i>
+				<i class="far fa-repeat" style="font-size: 48px;"></i>
+			</div>
+			<div class="play-logo">
+				<input type="range" id="play-song" required min="0" max="100">
+			</div>
+		</div>
+		</footer>
+	<!-- end of footer section -->
+	</body>
+<!-- end of body section -->
+</html>
